@@ -11,7 +11,7 @@
   <include file="$(find apriltags_ros)/launch/topic2_apriltag.launch"/>
   <!-- Calculate distance node -->
   <!-- Tag distance -->
-  <include file="$(find tutorial)/launch/tag_distance.launch"/>
+  <include file="$(find ros_service_practice)/launch/tag_distance.launch"/>
   <!-- rviz -->
-  <node pkg="rviz" type="rviz" name="rviz" args="-d $(find tutorial)/config/rviz/topic2.rviz"/>
+  <node pkg="rviz" type="rviz" name="rviz" args="-d $(find ros_service_practice)/config/rviz/topic2.rviz"/>
 </launch>
